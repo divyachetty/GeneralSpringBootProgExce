@@ -28,66 +28,66 @@
 
 
 <repositories>
-<repository>
-<id>springfeed1</id>
-<url>https://pkgs.dev.azure.com/divyadhani19/Artifact1/_packaging/Springfeed1/maven/v1</url>
-<releases>
-<enabled>true</enabled>
-</releases>
-<snapshots>
-<enabled>true</enabled>
-</snapshots>
-</repository>
+   <repository>
+        <id>Springfeed1</id>
+        <url>https://pkgs.dev.azure.com/divyadhani19/Artifact1/_packaging/Springfeed1/maven/v1</url>
+        <releases>
+        <enabled>true</enabled>
+        </releases>
+        <snapshots>
+        <enabled>true</enabled>
+        </snapshots>
+   </repository>
 </repositories>
 
 <distributionManagement>
-<repository>
-<id>springfeed1</id>
-<url>https://pkgs.dev.azure.com/divyadhani19/Artifact1/_packaging/Springfeed1/maven/v1</url>
-<releases>
-<enabled>true</enabled>
-</releases>
-<snapshots>
-<enabled>true</enabled>
-</snapshots>
-</repository> 
+   <repository>
+        <id>Springfeed1</id>
+        <url>https://pkgs.dev.azure.com/divyadhani19/Artifact1/_packaging/Springfeed1/maven/v1</url>
+        <releases>
+        <enabled>true</enabled>
+        </releases>
+        <snapshots>
+        <enabled>true</enabled>
+        </snapshots>
+   </repository>
 </distributionManagement>
 
 <dependencies>
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter</artifactId>
-</dependency>
+        <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+        </dependency>
  
         <dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-devtools</artifactId>
-<scope>runtime</scope>
-</dependency>
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-test</artifactId>
-<scope>test</scope>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-tomcat</artifactId>            
-</dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <scope>runtime</scope>
+        </dependency>
+        <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <scope>test</scope>
+         </dependency>
+         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
+         <dependency>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-starter-web</artifactId>
+         </dependency>
+         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-tomcat -->
+         <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-tomcat</artifactId>            
+         </dependency>
 </dependencies>
  
-    <build>
-<plugins>
-<plugin>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-maven-plugin</artifactId>
-</plugin>
-</plugins>
+<build>
+        <plugins>
+                <plugin>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-maven-plugin</artifactId>
+                </plugin>
+        </plugins>
 </build>
  
 
