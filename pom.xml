@@ -29,28 +29,28 @@
 
 <repositories>
    <repository>
-  <id>Springfeed</id>
-  <url>https://pkgs.dev.azure.com/arkadudhani/Artifacts/_packaging/Springfeed/maven/v1</url>
-  <releases>
+    <id>Springfeed</id>
+    <url>https://pkgs.dev.azure.com/arkadudhani/Artifacts/_packaging/Springfeed/maven/v1</url>
+    <releases>
     <enabled>true</enabled>
-  </releases>
-  <snapshots>
+    </releases>
+    <snapshots>
     <enabled>true</enabled>
-  </snapshots>
-</repository>
+    </snapshots>
+   </repository>
 </repositories>
 
 <distributionManagement>
    <repository>
-  <id>Springfeed</id>
-  <url>https://pkgs.dev.azure.com/arkadudhani/Artifacts/_packaging/Springfeed/maven/v1</url>
-  <releases>
+    <id>Springfeed</id>
+    <url>https://pkgs.dev.azure.com/arkadudhani/Artifacts/_packaging/Springfeed/maven/v1</url>
+    <releases>
     <enabled>true</enabled>
-  </releases>
-  <snapshots>
+    </releases>
+    <snapshots>
     <enabled>true</enabled>
-  </snapshots>
-</repository>
+    </snapshots>
+   </repository>
 </distributionManagement>
 
 <dependencies>
